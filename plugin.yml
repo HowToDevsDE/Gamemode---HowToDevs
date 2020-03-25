@@ -1,0 +1,14 @@
+name: Gamemode 
+main: HTD\SyntaxPE\Main
+api: [3.0.0, 4.0.0]
+version: 1.0
+author: SyntaxPE
+commands:
+   gm:
+    usage: /gm
+    description: Setzte dich in ein anderen Spielmodus! - HowToDevs
+    permission: "gm.command"
+    
+permissions:
+  gm.command:
+    default: op
